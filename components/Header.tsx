@@ -14,7 +14,7 @@ const Header = () => {
         Customers made these suggestions for improving Product XYZ
       </h1>
       <p className="pt-4 text-left">
-        Submit, upvote, and comment on suggestions below. If you'd like to
+        Submit, upvote, and comment on suggestions below. If you&apos;d like to
         report a bug, visit{" "}
         <span
           className="underline decoration-blue-600 text-blue-600 cursor-pointer"
