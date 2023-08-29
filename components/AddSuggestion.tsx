@@ -9,7 +9,12 @@ const AddSuggestion = () => {
 
   const handleSubmit = (e: React.MouseEvent<HTMLDivElement>): void => {
     e.preventDefault();
-
+    if (!suggestion) {
+      toast("Please type your suggestion", {
+        icon: "👍",
+      });
+      return;
+    }
     //Making sure everyone word starts with Capital Letter so it looks better UI wise
     let modifiedString = capitalizeFirstLetter(suggestion);
 
